@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RasaXe</string>
+    <string name="action_settings">Settings</string>
+    <string name="TextView_NewToRasaXe">New to RasaXe ?</string>
+    <string name="button_register">Register</string>
+    <string name="TextView_AlreadyAnAccount">Have an Account ?</string>
+    <string name="button_signin">Sign In</string>
+    <string name="title_activity_display_sign_in">Here you can Sign In</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_username">username</string>
+    <string name="edit_password">password</string>
+    <string name="title_activity_chat">ChatActivity</string>
+	<string name="hello">Hello World, XMPPChatDemoActivity!</string>
+    <string name="chat_with">Chat With</string>
+	<string name="add_recipient">add_recipient</string>
+	<string name="type_to_compose">type_to_compose</string>
+	<string name="Send">Send</string>
+</resources>
