@@ -21,10 +21,10 @@ public class DisplaySignInActivity extends Activity {
 	public void sendSignIn(View view) {
 		Intent intent = new Intent(this, ChatActivity.class);
 	    EditText editUsernameText = (EditText) findViewById(R.id.edit_username);
-	    //EditText editPasswordText = (EditText) findViewById(R.id.edit_password);
+	    EditText editPasswordText = (EditText) findViewById(R.id.edit_password);
 	    String username = editUsernameText.getText().toString();
-	    //String password = editPasswordText.getText().toString();
-	    String password = "tietie999";
+	    String password = editPasswordText.getText().toString();
+	    //String password = "tietie999";
 	    intent.putExtra(USER_NAMEINTENT, username);
 	    intent.putExtra(USER_PASSWORDINTENT, password);
 	    startActivity(intent);
