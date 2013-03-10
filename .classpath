@@ -3,7 +3,7 @@
 	<classpathentry exported="true" kind="lib" path="libs/asmack-2010.05.07.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="lib" path="libs/asmack-jse-buddycloud-2010.12.11.jar"/>
-	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
