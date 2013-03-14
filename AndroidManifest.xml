@@ -3,12 +3,13 @@
     package="com.junior.rasaxe"
     android:versionCode="1"
     android:versionName="1.0" >
- 
+
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.GET_ACCOUNTS" />  
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +21,7 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -30,6 +32,10 @@
         <activity
             android:name="com.junior.rasaxe.ChatActivity"
             android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.junior.rasaxe.DisplaySignUpActivity"
+            android:label="@string/title_activity_display_sign_up" >
         </activity>
     </application>
 

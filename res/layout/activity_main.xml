@@ -14,7 +14,8 @@
     <Button
         android:layout_width="144dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_register" />
+        android:text="@string/button_register"
+        android:onClick="topageSignUp" />
 
     <TextView
         android:id="@+id/textView2"

@@ -20,6 +20,12 @@ public class MainActivity extends Activity {
 	    Intent intent = new Intent(this, DisplaySignInActivity.class);
 	    startActivity(intent);
 	}
+	
+	public void topageSignUp(View view) {
+	    // Displays the activity Sign In
+	    Intent intent = new Intent(this, DisplaySignUpActivity.class);
+	    startActivity(intent);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
